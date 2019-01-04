@@ -11,6 +11,7 @@ a1(0) = 1; a1(1) = 3; a1(2) = 2
 import java.util
 
 import Array._
+import scala.annotation.tailrec
 import scala.collection.mutable.ListBuffer
 concat(a1, a1)
 
@@ -133,3 +134,26 @@ List("0", "1").map(x => x++"0")
 
 List("0", "1").map(x => {
   List("0",  "1").flatMap(_ ++ x) })
+
+def add(x: Int)(implicit y: Int ) =  x + y
+
+implicit val aaa = 4
+add(3)
+
+val z = (x: Int, y: Int) => x+y
+
+def recur[T](l: List[T]): List[T] = l match {
+  case h :: tail => recur(tail) ::: List(h)
+  case _ => Nil
+}
+
+recur(List(1, 2 ,3))
+
+List(1, 2, 3) ++ List(3)
+
+val qq = List(1, 2, "as")
+
+qq.map(_ match {
+  case (_: Int) => true
+  case (_: String) => false
+})
