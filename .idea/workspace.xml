@@ -2,49 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aec4d80-178e-433d-ae3f-bd6238df9ef1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scala4impatient/sc1.sc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scala4impatient/sc2.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scala4impatient/sc3.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/ArrayPlay$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/ArrayPlay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/Exercise/LastElement$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/Exercise/LastElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/MapT$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/MapT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/Summation$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/Summation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/createClass$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/createClass$Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/createClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/guessNumber$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/guessNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/inc$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/inc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/increment$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/increment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/Base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/Cons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/Empty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/HelloWorld$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/IntSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/List$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/Nil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/NonEmpty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/Sub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/exercise$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/exercise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/intsets$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/intsets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/nth$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/nth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/overrides$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/overrides.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/rational$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice/rational.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaPratice/practice3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaPratice/practice3.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scala4impatient/sc2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/scala4impatient/sc2.sc" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,29 +56,30 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="sc" value="2" />
-          <entry key="scala" value="2" />
+          <entry key="sc" value="3" />
+          <entry key="scala" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Scala" value="4" />
+          <entry key="Scala" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="sc" value="1211" />
+          <entry key="sc" value="2744" />
           <entry key="scala" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="1281" />
+          <entry key="Scala" value="2814" />
         </counts>
       </usages-collector>
     </session>
@@ -134,11 +95,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc2.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="34">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc3.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -185,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/scala4impatient/sc1.sc" />
         <option value="$PROJECT_DIR$/src/scala4impatient/sc2.scala" />
         <option value="$PROJECT_DIR$/src/scala4impatient/sc2.sc" />
+        <option value="$PROJECT_DIR$/src/scala4impatient/sc3.sc" />
       </list>
     </option>
   </component>
@@ -195,7 +166,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
+    <option name="x" value="82" />
     <option name="y" value="22" />
     <option name="width" value="1292" />
     <option name="height" value="797" />
@@ -205,7 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,12 +204,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546578223973" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546852230377" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -349,10 +320,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="22" width="1292" height="797" extended-state="0" />
+    <frame x="82" y="22" width="1292" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -547,13 +518,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc2.scala" />
     <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc1.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -563,8 +528,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc2.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="34">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/collection/SeqLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="608" column="6" selection-start-line="608" selection-start-column="6" selection-end-line="608" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc3.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
         </state>
       </provider>
     </entry>
