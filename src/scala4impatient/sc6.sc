@@ -1,3 +1,5 @@
+import java.awt.Point
+
 // object
 object Accounts {
   private var lastNum = 0
@@ -44,10 +46,48 @@ object Account {
 
 val acc = Account(100)
 
+// exec without main method
 object Hello extends App {
   println("Hello")
 }
 
+object Light extends Enumeration {
+  val red, yellow, green = Value
+}
+
+for (c <- Light.values) println(c.id)
+
+// exercise
+object Conversions {
+  def inches2centimeters(inch: Double) = 2*inch
+
+  def gallons2liters(gallon: Double) = 3*gallon
+
+  def miles2Kilo(miles: Double) = 4*miles
+}
+
+//
+
+abstract class UnitConversion[A] {
+  def UnitConversion(unit: A): A
+}
+
+object Inch2Centi extends UnitConversion[Double] {
+  override def UnitConversion(inch: Double): Double = 2*inch
+}
+
+class Point(var x: Int, var y: Int) {
+
+}
+
+object Point {
+  def apply(x: Int, y: Int): Point = {
+    new Point(x, y)
+  }
+}
+
+val a = new Point(3, 4)
+val aa = Point(3, 4)
 
 
 
