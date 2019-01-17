@@ -89,6 +89,7 @@ object Point {
 val a = new Point(3, 4)
 val aa = Point(3, 4)
 
+a.getClass
 
 
 
