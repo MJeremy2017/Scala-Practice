@@ -91,5 +91,7 @@ val aa = Point(3, 4)
 
 a.getClass
 
+List("a", "b").mkString(" and ")
+
 
 
