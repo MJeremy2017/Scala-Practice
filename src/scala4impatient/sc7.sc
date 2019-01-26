@@ -89,6 +89,7 @@ sa.monthlyInterest  // 12
 sa.currentBalance  // 12
 
 abstract class Item2 {
+  val a = 1
   def description: String
   def price: Double
 }
@@ -101,6 +102,7 @@ si.description
 
 
 class BundleItems(descriptions: List[String], prices: List[Double]) extends Item2 {
+  val innera = a
   override def description: String = {
     descriptions.mkString(" and ")
   }
@@ -111,7 +113,7 @@ class BundleItems(descriptions: List[String], prices: List[Double]) extends Item
 }
 
 val bl = new BundleItems(List("apple", "pear"), List(3, 2))
-
+bl.innera
 bl.description
 bl.price
 
@@ -123,4 +125,3 @@ class LabelPoint(label: String, x:Int, y:Int) extends Point(x: Int, y: Int)
 
 val p1 = new Point(3, 2)
 println(p1)
-

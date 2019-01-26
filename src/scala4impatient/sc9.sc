@@ -1,5 +1,5 @@
 trait Logger {
-  def log(msg: String) = println(msg)
+  def log(msg: String)
 }
 
 trait ConsoleLogger extends Logger {
@@ -42,4 +42,42 @@ val acct2 = new SavingAccount with ShortLogger with TimeLogger
 acct1.withdraw(10)
 acct2.withdraw(10)
 
+trait Logger2 {
+  def log(msg: String)
+  def warn(msg: String)= println(s"Warn: $msg")
+  def severe(msg: String) = println(s"Sever: $msg")
+}
 
+
+abstract class Saving extends Account with Logger2 {
+  severe("Insufficient funds")  // call directly
+}
+
+trait LogException extends Exception with ConsoleLogger {
+  // def log()= log(getMessage)
+}
+
+class UnhappyException extends LogException{
+  override def getMessage: String = "arggh"
+}  // super class is Exception
+
+class Point(private var x: Int, private var y: Int) extends Color {
+  def get_x = x
+  def get_y = y
+  def move(dx: Int, dy: Int) = {
+    x += dx
+    y += dy
+  }
+
+  override def color(c: String) = println(c)
+}
+
+trait Color {
+  def color(c: String)
+}
+
+val p1 = new Point(3, 2)
+p1.move(1, 1)
+p1.get_x
+p1.get_y
+p1.color("RED")
