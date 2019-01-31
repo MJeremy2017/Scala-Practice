@@ -39,3 +39,32 @@ val ar = ArrayBuffer(1, 2)
 ar += 3
 
 l.mkString(":", ",", ":")
+
+(1 to 10).flatMap(i => (1 to i).map(j => j * i))
+
+val names = List("Jane", "May", "Yoo")
+names.foreach(println)
+
+"-3+4".collect {case '-' => -1; case '+' => 1}
+
+val words = "Hello"
+words.groupBy(_.toUpper)
+List(3, 2, 3).foldLeft(0)(_ + _)
+
+(0 /: List(3, 2, 1))(_ + _)  // same as foldleft
+
+Map("a" -> 3) + ("s" -> 2)
+
+("Mississippi").foldLeft(Map[Char, Int]()) {
+  (m, c) => m + (c -> (m.getOrElse(c, 0) + 1) )
+}
+
+(1 to 10).scanLeft(0)(_ + _)
+
+val price = List(2, 3, 1.3)
+val quantity = List(10, 2, 1)
+
+price.zip(quantity)
+"Scala".zipWithIndex.map( x => (x._1, x._2) )
+
+
