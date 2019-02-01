@@ -67,4 +67,41 @@ val quantity = List(10, 2, 1)
 price.zip(quantity)
 "Scala".zipWithIndex.map( x => (x._1, x._2) )
 
+(1 to 10).scanLeft(0)(_+_)
 
+def numsFrom(n: BigInt): Stream[BigInt] = n #:: numsFrom(n+1)
+
+val st = numsFrom(3)  // Stream(3, ?)
+st.take(5).force
+st  // cached
+
+var mm = scala.collection.mutable.Map[String, Int]()
+mm += ("M" -> 4)
+mm.getOrElse("S", 0)
+
+val stt = "Mississippi"
+stt.foldLeft(collection.mutable.Map[Char, List[Int] ]()) {
+  (m, c) => m + (c -> m.getOrElse(c, List(stt.indexOf(c)) ) )
+}
+
+List(3, 2, 1, 2, 4).zipWithIndex.filter(_._2 % 2 == 0).map(_._1)
+
+val mm2 = Map("Tom" -> 3, "Dick" -> 4, "Harry" -> 5)
+
+Array("Tom", "Harry").map(x => mm2.getOrElse(x, None))
+
+List("Hello", "World").mkString(",")
+List("Hello", "World", "!").reduceLeft((a, b) => a + "," + b)
+
+val ls = List(1, 2, 3)
+(ls :\ List[Int]())(_ :: _)
+//
+ls.foldLeft(List[Int]())( (a, b) => b :: a )
+
+
+val ar2 = Array(1, 2, 3, 4, 5, 6)
+ar2.grouped(3).toArray
+
+for (i <- 1 to 10; j <- 1 to i) yield i*j
+
+(1 to 10).map(i => (1 to i).map(j => i*j))
