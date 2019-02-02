@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aec4d80-178e-433d-ae3f-bd6238df9ef1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/scala4impatient/sc12.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/scala4impatient/sc12.sc" afterDir="false" />
-    </list>
+    <list default="true" id="3aec4d80-178e-433d-ae3f-bd6238df9ef1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +50,7 @@
     <session id="-278687903">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.13" value="1" />
