@@ -1,2 +1,2 @@
-# Scala_Practice
+# Scala Practice
 Scala Daily Practice
