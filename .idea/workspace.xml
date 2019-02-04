@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aec4d80-178e-433d-ae3f-bd6238df9ef1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scala4impatient/sc14.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scala4impatient/sc15.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scala.for.the.Impatient.2nd.Edition.2016.12.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Scala.for.the.Impatient.2nd.Edition.2016.12.pdf" afterDir="false" />
     </list>
@@ -98,22 +98,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="sc" value="2" />
+          <entry key="sc" value="3" />
+          <entry key="scala" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Scala" value="2" />
+          <entry key="Scala" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="sc" value="168" />
+          <entry key="sc" value="408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="168" />
+          <entry key="Scala" value="408" />
         </counts>
       </usages-collector>
     </session>
@@ -123,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc9.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1349">
+            <state>
               <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
             </state>
           </provider>
@@ -166,10 +167,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc14.sc">
+        <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc15.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="475">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/concurrent/package.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="189" column="8" selection-start-line="189" selection-start-column="8" selection-end-line="189" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -237,6 +247,7 @@
         <option value="$PROJECT_DIR$/src/scala4impatient/sc12.sc" />
         <option value="$PROJECT_DIR$/src/scala4impatient/sc13.sc" />
         <option value="$PROJECT_DIR$/src/scala4impatient/sc14.sc" />
+        <option value="$PROJECT_DIR$/src/scala4impatient/sc15.sc" />
       </list>
     </option>
   </component>
@@ -285,7 +296,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549260695018" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549271439730" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -437,7 +448,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test.scala" />
     <entry file="file://$PROJECT_DIR$/src/practice2.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -699,7 +709,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc9.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
+        <state>
           <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
         </state>
       </provider>
@@ -728,6 +738,13 @@
     <entry file="file://$PROJECT_DIR$/src/scala4impatient/生产4.sc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc14.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc13.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -735,10 +752,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc14.sc">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/concurrent/package.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="226">
+          <caret line="189" column="8" selection-start-line="189" selection-start-column="8" selection-end-line="189" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/concurrent/Future.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-996">
+          <caret line="652" column="6" selection-start-line="652" selection-start-column="6" selection-end-line="652" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala4impatient/sc15.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
         </state>
       </provider>
     </entry>
