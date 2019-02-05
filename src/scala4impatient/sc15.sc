@@ -10,8 +10,8 @@ Future {
 }
 println(s"current time ${LocalTime.now}")
 
-//Future { for (i <- 1 to 10) { print("A"); Thread.sleep(10) } }
-//Future { for (i <- 1 to 10) { print("B"); Thread.sleep(10) } }
+Future { for (i <- 1 to 10) { print("A"); Thread.sleep(10) } }
+Future { for (i <- 1 to 10) { print("B"); Thread.sleep(10) } }
 
 val f = Future {
   Thread.sleep(2)
@@ -25,3 +25,10 @@ f.onComplete({
   case Success(v) => println(v)
   case Failure(ex) => println(ex.getMessage)
 } )
+
+val n1 = Future { Thread.sleep(1000) ;
+  2 }
+val n2 = Future { Thread.sleep(1000);
+  40 }
+
+println(n1)
