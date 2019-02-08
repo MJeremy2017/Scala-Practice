@@ -40,3 +40,16 @@ new MakePair[Int](4, 3)
 def firstLast[A, C](it: C)(implicit ev: C <:< Iterable[A]) = (it.head, it.last)
 
 firstLast(List(1, 2, 3))
+
+class Pair4[T, R](val first: T, val second: R) {
+  def swap = (second, first)
+
+  def swap2[T, R](f: T, s: R) = (s, f)
+}
+
+val pp = new Pair4(3, "st")
+pp.swap
+pp.first
+pp.swap2("ss", 3)
+
+Iterable
