@@ -39,7 +39,10 @@ new MakePair[Int](4, 3)
 
 def firstLast[A, C](it: C)(implicit ev: C <:< Iterable[A]) = (it.head, it.last)
 
+// def firstLast2[A, C <: Iterable[A]](it: C) = (it.head, it.last)
+
 firstLast(List(1, 2, 3))
+// firstLast2(List(1, 2, 3))
 
 class Pair4[T, R](val first: T, val second: R) {
   def swap = (second, first)
@@ -52,4 +55,24 @@ pp.swap
 pp.first
 pp.swap2("ss", 3)
 
-Iterable
+trait hobby {
+  val name = "sme"
+  def what: String
+}
+
+class Person extends hobby {
+  override def what: String = "football"
+}
+
+class Bug {
+  var cur_position = 0
+  def move(d: Int) = {
+    cur_position += d
+    this
+  }
+  def show = println(cur_position)
+}
+
+
+val bugsy = new Bug
+bugsy.move(3).move(4).show
