@@ -1,2 +1,4 @@
-# Scala_Practice
-Scala Daily Practice
+# Scala Practice
+***Scala Daily Practice***
+- updated generic types
+- implicit types
