@@ -1,4 +1,3 @@
 # Scala Practice
 ***Scala Daily Practice***
-- updated generic types
-- implicit types
+sbt reference![](https://www.scala-sbt.org/documentation.html)
