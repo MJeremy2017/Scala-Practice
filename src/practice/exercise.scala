@@ -1,6 +1,0 @@
-package practice
-
-object exercise {
-
-
-}
