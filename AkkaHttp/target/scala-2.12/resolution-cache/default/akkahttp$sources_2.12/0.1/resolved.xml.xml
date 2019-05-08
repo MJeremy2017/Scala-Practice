@@ -4,7 +4,7 @@
 		module="akkahttp$sources_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190508142108"
+		publication="20190508144047"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
