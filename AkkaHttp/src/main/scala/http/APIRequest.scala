@@ -6,7 +6,7 @@ import akka.http.scaladsl.model._
 import akka.stream.ActorMaterializer
 
 import scala.concurrent.Future
-import scala.util.{Failure, Success, Try}
+import scala.util.{Failure, Success}
 
 
 object APIRequest {
